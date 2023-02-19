@@ -1,5 +1,5 @@
 [package]
-name = "chola-markdown-view"
+name = "markdown-view"
 version = "0.1.0"
 edition = "2021"
 

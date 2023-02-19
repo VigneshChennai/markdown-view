@@ -87,7 +87,7 @@ mod tests {
     #[test]
     fn preview() {
         let application = gtk::Application::new(
-            Some("com.github.vigneshchennai.chola-markdown-view-test"),
+            Some("com.github.vigneshchennai.markdown-view-test"),
             Default::default(),
         );
         application.connect_activate(build_ui);
