@@ -1,5 +1,6 @@
 use glib::Object;
 use gtk::glib;
+use gtk::glib::IsA;
 
 mod imp;
 
@@ -19,6 +20,14 @@ impl MarkdownView {
     pub fn new() -> Self {
         Object::builder().build()
     }
+}
+
+pub trait MarkdownViewExt {
+
+}
+
+impl <O: IsA<MarkdownView>> MarkdownViewExt for O {
+
 }
 
 
